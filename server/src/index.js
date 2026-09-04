@@ -9,7 +9,7 @@ dotenv.config();
 
 const app = express();
 const port = process.env.PORT || 5001;
-const host = process.env.HOST || "127.0.0.0";
+const host = process.env.HOST || "0.0.0.0";
 const clientUrl = process.env.CLIENT_URL || "http://localhost:5173";
 
 app.use(
